@@ -127,8 +127,8 @@
               </tbody>
             </table>
             <table width="100%" align="center" border="0" cellpadding="6">
-              <tbody>
-                <!-- <tr>
+              <tbody>        
+                <tr>
                   <td style="padding:10px;width:85%;vertical-align:middle">
                     <papertitle>An Analytical Emotion Framework of Rumour Threads on Social Media</papertitle>
                     <br>
@@ -137,7 +137,7 @@
                     Timothy Baldwin and
                     Jey Han Lau
                     <br>
-                    <em>(To Appear) In Proceedings of NAACL HLT 2025, Albuquerque, New Mexico.</em>
+                    <em>(To Appear) In Proceedings of MisD@ICWSM 2025, Copenhagen, Denmark.</em>
                     <br>
                     <p>
                       Rumours in online social media pose significant risks to modern society, motivating the need for better understanding of how they develop. We focus specifically on the interface between emotion and rumours in threaded discourses, building on the surprisingly sparse literature on the topic which has largely focused on single aspect of emotions within the original rumour posts themselves, and largely overlooked the comparative differences between rumours and non-rumours. In this work, we take one step further to provide a comprehensive analytical emotion framework with multi-aspect emotion detection, contrasting rumour and non-rumour threads and provide both correlation and causal analysis of emotions. We applied our framework on existing widely-used rumour datasets to further understand the emotion dynamics in online social media threads. Our framework reveals that rumours trigger more negative emotions (e.g., anger, fear, pessimism), while non-rumours evoke more positive ones. Emotions are contagious—rumours spread negativity, non-rumours spread positivity. Causal analysis shows surprise bridges rumours and other emotions; pessimism comes from sadness and fear, while optimism arises from joy and love.
@@ -146,7 +146,24 @@
                       <a href="https://github.com/ruixing76/" target="_blank">code</a>]
                     </p>
                   </td>
-                </tr> -->
+                </tr>
+                <tr>
+                  <td style="padding:10px;width:85%;vertical-align:middle">
+                    <papertitle>Benchmarking Uncertainty Quantification Methods for Large Language Models with LM-Polygraph</papertitle>
+                    <br>
+                    
+                    Roman Vashurin, Ekaterina Fadeeva, Artem Vazhentsev, Lyudmila Rvanova, Daniil Vasilev, Akim Tsvigun, Sergey Petrakov, <strong>Rui Xing</strong>, Abdelrahman Sadallah, Kirill Grishchenkov, Alexander Panchenko, Timothy Baldwin, Preslav Nakov, Maxim Panov, Artem Shelmanov
+                    <br>
+                    <em>Transactions of the Association for Computational Linguistics (2025)</em>
+                    <br>
+                    <p>
+                      The rapid proliferation of large language models (LLMs) has stimulated researchers to seek effective and efficient approaches to deal with LLM hallucinations and low-quality outputs. Uncertainty quantification (UQ) is a key element of machine learning applications in dealing with such challenges. However, research to date on UQ for LLMs has been fragmented in terms of techniques and evaluation methodologies. In this work, we address this issue by introducing a novel benchmark that implements a collection of state-of-the-art UQ baselines and offers an environment for controllable and consistent evaluation of novel UQ techniques over various text generation tasks. Our benchmark also supports the assessment of confidence normalization methods in terms of their ability to provide interpretable scores. Using our benchmark, we conduct a large-scale empirical investigation of UQ and normalization techniques across eleven tasks, identifying the most effective approaches.
+                      [<a href="https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00737/128713" target="_blank">paper</a>
+                      /
+                      <a href="https://github.com/IINemo/lm-polygraph" target="_blank">code</a>]
+                    </p>
+                  </td>
+                </tr>
                 <tr>
                   <td style="padding:10px;width:85%;vertical-align:middle">
                     <papertitle>Evaluating Evidence Attribution in Generated Fact Checking Explanations</papertitle>
@@ -155,7 +172,7 @@
                     Timothy Baldwin and
                     Jey Han Lau
                     <br>
-                    <em>(To Appear) In Proceedings of NAACL HLT 2025, Albuquerque, New Mexico.</em>
+                    <em>In Proceedings of NAACL HLT 2025, Albuquerque, New Mexico.</em>
                     <br>
                     <p>
                       Automated fact-checking systems often struggle with trustworthiness, as their generated explanations can include hallucinations. In this work, we explore evidence attribution for fact-checking explanation generation. We introduce a novel evaluation protocol, citation masking and recovery, to assess attribution quality in generated explanations. We implement our protocol using both human annotators and automatic annotators, and find that LLM annotation correlates with human annotation, suggesting that attribution assessment can be automated. Finally, our experiments reveal that: (1) the best-performing LLMs still generate explanations with inaccurate attributions; and (2) human-curated evidence is essential for generating better explanations.
@@ -171,7 +188,7 @@
                     <br>
                     Zhuohan Xie, <strong>Rui Xing</strong>, Yuxia Wang, Jiahui Geng, Hasan Iqbal, Dhruv Sahnan, Iryna Gurevych and Preslav Nakov
                     <br>
-                    <em>(To Appear) In Findings of NAACL HLT 2025, Albuquerque, New Mexico.</em>
+                    <em>In Findings of NAACL HLT 2025, Albuquerque, New Mexico.</em>
                     <br>
                     <p>
                       Fact-checking long-form text is challenging, and it is therefore common practice to break it down into multiple atomic claims. The typical approach to fact-checking these atomic claims involves retrieving a fixed number of pieces of evidence, followed by a verification step. However, this method is usually not cost-effective, as it underutilizes the verification model's internal knowledge of the claim and fails to replicate the iterative reasoning process in human search strategies. To address these limitations, we propose FIRE, a novel agent-based framework that integrates evidence retrieval and claim verification in an iterative manner. Specifically, FIRE employs a unified mechanism to decide whether to provide a final answer or generate a subsequent search query, based on its confidence in the current judgment. We compare FIRE with other strong fact-checking frameworks and find that it achieves slightly better performance while reducing large language model (LLM) costs by an average of 7.6 times and search costs by 16.5 times. These results indicate that FIRE holds promise for application in large-scale fact-checking operations.
@@ -352,9 +369,6 @@
                   <td> 2023-2024: <a href="https://www.alta.asn.au/" target="_blank">ALTA</a> student representative </td>
                 </tr>
                 <tr>
-                  <td> 2024: reviewer, <a href="https://sites.google.com/view/acl-srw2024/home" target="_blank">ACL 2024 Student Research Workshop</a>, <a href="https://coling2025.org/" target="_blank">COLING 2025</a> </td>
-                </tr>
-                <tr>
                   <td> 2022-2024: student organizer, University of Melbourne NLP Reading Group </td>
                 </tr>
                 <tr>
@@ -391,16 +405,17 @@
                 <tr>
                   <td>
                     <ul style="margin: 0px;">
-                      <li> 2025: <a href="https://2025.naacl.org/" target="_blank">NAACL 2025</a>, <a href="https://coling2025.org/" target="_blank">COLING 2025</a>, Student Volunteer </li>
-                      <li> 2022, 2023: <a href="https://study.unimelb.edu.au/openday" target="_blank">UniMelb Open Day</a>, <a href="https://students.unimelb.edu.au/new-students/melbourne-orientation"
-                        target="_blank">UniMelb Orientation</a></li>
+                      <li> 2025: <a href="https://coling2025.org/" target="_blank">COLING 2025</a>, <a href="https://2025.naacl.org/" target="_blank">NAACL 2025</a>, Student Volunteer </li>
+                      <li> 2022, 2023: <a href="https://study.unimelb.edu.au/openday" target="_blank">UniMelb Open Day</a>, 
+                        <a href="https://students.unimelb.edu.au/new-students/melbourne-orientation"
+                        target="_blank">UniMelb Orientation</a>, 
+                        <a href="https://eng.unimelb.edu.au/students/coursework/progress-your-career/case-competition"
+                          target="_blank">UniMelb Engineering & IT Case Competition</a>, 
+                        <a href="https://www.mueec.com/superhack" target="_blank">UniMelb SuperHack 2022</a>, 
+                        <a href="https://asiaeducation.edu.au/programmes/go-global-programs/global-youth-forum-2022"
+                          target="_blank">Victorian Young Leaders: Global Youth Forum Volunteer Mentor</a>, Student Volunteer
+                        </li>
                       <li> 2022-12: <a href="https://alta2022.alta.asn.au/" target="_blank">ALTA 2022</a>, Student Volunteer</li>
-                      <li> 2022-11: <a href="https://www.mueec.com/superhack" target="_blank">UniMelb SuperHack 2022</a>, Student Mentor </li>
-                      <li> 2022-05 & 2022-11: <a href="https://asiaeducation.edu.au/programmes/go-global-programs/global-youth-forum-2022"
-                          target="_blank">Victorian Young Leaders: Global Youth Forum Volunteer Mentor</a> Student Mentor</li>
-                      <li> 2022-03: <a href="https://eng.unimelb.edu.au/students/coursework/progress-your-career/case-competition"
-                          target="_blank">UniMelb Engineering & IT Case Competition</a>, Volunteer
-                      </li>
                       <li>I am a member of <a href="https://www.bv2008.cn/cate/en/">
                           Beijing Volunteer Service Federation (BVF)</a>. </li>
                     </ul>
