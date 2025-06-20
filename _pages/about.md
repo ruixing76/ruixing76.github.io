@@ -6,7 +6,7 @@ subtitle: Hi, I am Rui Xing(邢瑞 in Chinese, a close pronunciation /reɪ, ʃɪ
 
 profile:
   align: right
-  image: rui_sunglass.jpg
+  image: rui_sunglass.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Melbourne Connect</p>
