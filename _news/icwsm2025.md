@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper (RumourEmotion) accepted to MisD@ICWSM 2025!
+One paper RumourEmotion has been accepted to MisD@ICWSM 2025!
