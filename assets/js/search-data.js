@@ -398,11 +398,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-two-papers-attrexp-and-fire-accepted-to-naacl-2025-see-you-in-albuquerque-new-mexico",
-          title: 'Two papers (AttrExp and FIRE) accepted to NAACL 2025! See you in Albuquerque,...',
+            },},{id: "news-two-papers-attrexp-and-fire-were-accepted-to-naacl-2025-see-you-in-albuquerque-new-mexico",
+          title: 'Two papers (AttrExp and FIRE) were accepted to NAACL 2025! See you in...',
           description: "",
-          section: "News",},{id: "news-one-paper-rumouremotion-accepted-to-misd-icwsm-2025",
-          title: 'One paper (RumourEmotion) accepted to MisD@ICWSM 2025!',
+          section: "News",},{id: "news-one-paper-rumouremotion-has-been-accepted-to-misd-icwsm-2025",
+          title: 'One paper RumourEmotion has been accepted to MisD@ICWSM 2025!',
+          description: "",
+          section: "News",},{id: "news-our-tacl-paper-lm-polygraph-has-been-accepted-to-acl-2025",
+          title: 'Our TACL paper (LM-Polygraph) has been accepted to ACL 2025!',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
