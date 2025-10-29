@@ -1,6 +1,6 @@
 ---
-layout: about
-title: about
+layout: About
+title: About
 permalink: /
 subtitle: Hi, I am Rui Xing(邢瑞 in Chinese, a close pronunciation /reɪ, ʃɪŋ/).
 
