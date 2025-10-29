@@ -4,7 +4,7 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -404,8 +404,11 @@ ninja.data = [{
           section: "News",},{id: "news-one-paper-rumouremotion-has-been-accepted-to-misd-icwsm-2025",
           title: 'One paper RumourEmotion has been accepted to MisD@ICWSM 2025!',
           description: "",
-          section: "News",},{id: "news-our-tacl-paper-lm-polygraph-has-been-accepted-to-acl-2025",
-          title: 'Our TACL paper (LM-Polygraph) has been accepted to ACL 2025!',
+          section: "News",},{id: "news-our-tacl-paper-lm-polygraph-will-be-presented-at-acl-2025",
+          title: 'Our TACL paper LM-Polygraph will be presented at ACL 2025!',
+          description: "",
+          section: "News",},{id: "news-our-paper-unconditional-uncertainty-has-been-accepted-to-emnlp-2025",
+          title: 'Our paper Unconditional Uncertainty has been accepted to EMNLP 2025!',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
